@@ -36,3 +36,4 @@ coverage.json
 
 # MacOS junk
 .DS_Store
+/.idea/
