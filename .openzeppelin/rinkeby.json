@@ -1501,11 +1501,11 @@
       }
     },
     "PoolToken_Compound_DAI": {
-      "address": "0x679edc6daD17e55a18BBF15ae571f02428a0628f",
-      "constructorCode": "608060405261336c806100136000396000f3fe",
-      "bodyBytecodeHash": "55ed64c1ff990ddef1f713de49b50e1b9d1c4fd4f22c5364a5686b88ed6e10ef",
-      "localBytecodeHash": "35be248bda67b2911f0e4497efe7bd2d0f52765047cc3c39f024e9a499337bf6",
-      "deployedBytecodeHash": "35be248bda67b2911f0e4497efe7bd2d0f52765047cc3c39f024e9a499337bf6",
+      "address": "0x7dCbC1Df877bF6085600F4bA99382dE3e79346A1",
+      "constructorCode": "60806040526133b6806100136000396000f3fe",
+      "bodyBytecodeHash": "3f5cd162eb6eda429f12b0fa99ebcb7a74df17eec023e1b6d1fceef7234d255e",
+      "localBytecodeHash": "1c692ec9a94bf79b92880efdfb30a979efe4ac45535ad4b00f029c673bf20884",
+      "deployedBytecodeHash": "1c692ec9a94bf79b92880efdfb30a979efe4ac45535ad4b00f029c673bf20884",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -1552,9 +1552,9 @@
           "members": [
             {
               "label": "bearer",
-              "astId": 16249,
+              "astId": 20721,
               "type": "t_mapping<t_bool>",
-              "src": "150:32:65"
+              "src": "150:32:94"
             }
           ]
         },
@@ -1571,15 +1571,15 @@
           "members": [
             {
               "label": "amount",
-              "astId": 9768,
+              "astId": 14708,
               "type": "t_uint256",
-              "src": "745:14:50"
+              "src": "745:14:80"
             },
             {
               "label": "totalSupply",
-              "astId": 9770,
+              "astId": 14710,
               "type": "t_uint256",
-              "src": "832:19:50"
+              "src": "832:19:80"
             }
           ]
         },
@@ -1594,47 +1594,47 @@
       "storage": [
         {
           "contract": "Initializable",
-          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
           "label": "initialized",
-          "astId": 18319,
+          "astId": 22791,
           "type": "t_bool",
-          "src": "757:24:82"
+          "src": "757:24:111"
         },
         {
           "contract": "Initializable",
-          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
           "label": "initializing",
-          "astId": 18321,
+          "astId": 22793,
           "type": "t_bool",
-          "src": "876:25:82"
+          "src": "876:25:111"
         },
         {
           "contract": "Initializable",
-          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
           "label": "______gap",
-          "astId": 18383,
+          "astId": 22855,
           "type": "t_array:50<t_uint256>",
-          "src": "1982:29:82"
+          "src": "1982:29:111"
         },
         {
           "contract": "Ownable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/ownership/Ownable.sol",
           "label": "_owner",
-          "astId": 17252,
+          "astId": 21724,
           "type": "t_address",
-          "src": "526:22:73"
+          "src": "526:22:102"
         },
         {
           "contract": "Ownable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/ownership/Ownable.sol",
           "label": "______gap",
-          "astId": 17365,
+          "astId": 21837,
           "type": "t_array:50<t_uint256>",
-          "src": "2471:29:73"
+          "src": "2471:29:102"
         },
         {
           "contract": "Module",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\common\\Module.sol",
+          "path": "contracts/common/Module.sol",
           "label": "pool",
           "astId": 43,
           "type": "t_address",
@@ -1642,139 +1642,139 @@
         },
         {
           "contract": "ERC20",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol",
           "label": "_balances",
-          "astId": 17385,
+          "astId": 21857,
           "type": "t_mapping<t_uint256>",
-          "src": "1418:46:74"
+          "src": "1418:46:103"
         },
         {
           "contract": "ERC20",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol",
           "label": "_allowances",
-          "astId": 17391,
+          "astId": 21863,
           "type": "t_mapping<t_uint256>",
-          "src": "1471:69:74"
+          "src": "1471:69:103"
         },
         {
           "contract": "ERC20",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol",
           "label": "_totalSupply",
-          "astId": 17393,
+          "astId": 21865,
           "type": "t_uint256",
-          "src": "1547:28:74"
+          "src": "1547:28:103"
         },
         {
           "contract": "ERC20",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol",
           "label": "______gap",
-          "astId": 17777,
+          "astId": 22249,
           "type": "t_array:50<t_uint256>",
-          "src": "8172:29:74"
+          "src": "8172:29:103"
         },
         {
           "contract": "ERC20Detailed",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Detailed.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol",
           "label": "_name",
-          "astId": 17829,
+          "astId": 22301,
           "type": "t_string",
-          "src": "224:20:76"
+          "src": "224:20:105"
         },
         {
           "contract": "ERC20Detailed",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Detailed.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol",
           "label": "_symbol",
-          "astId": 17831,
+          "astId": 22303,
           "type": "t_string",
-          "src": "250:22:76"
+          "src": "250:22:105"
         },
         {
           "contract": "ERC20Detailed",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Detailed.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol",
           "label": "_decimals",
-          "astId": 17833,
+          "astId": 22305,
           "type": "t_uint8",
-          "src": "278:23:76"
+          "src": "278:23:105"
         },
         {
           "contract": "ERC20Detailed",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Detailed.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol",
           "label": "______gap",
-          "astId": 17885,
+          "astId": 22357,
           "type": "t_array:50<t_uint256>",
-          "src": "1654:29:76"
+          "src": "1654:29:105"
         },
         {
           "contract": "MinterRole",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\roles\\MinterRole.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/access/roles/MinterRole.sol",
           "label": "_minters",
-          "astId": 16469,
+          "astId": 20941,
           "type": "t_struct<Roles.Role>",
-          "src": "327:27:67"
+          "src": "327:27:96"
         },
         {
           "contract": "MinterRole",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\roles\\MinterRole.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/access/roles/MinterRole.sol",
           "label": "______gap",
-          "astId": 16569,
+          "astId": 21041,
           "type": "t_array:50<t_uint256>",
-          "src": "1193:29:67"
+          "src": "1193:29:96"
         },
         {
           "contract": "ERC20Mintable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Mintable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Mintable.sol",
           "label": "______gap",
-          "astId": 17934,
+          "astId": 22406,
           "type": "t_array:50<t_uint256>",
-          "src": "831:29:77"
+          "src": "831:29:106"
         },
         {
           "contract": "ERC20Burnable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Burnable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Burnable.sol",
           "label": "______gap",
-          "astId": 17818,
+          "astId": 22290,
           "type": "t_array:50<t_uint256>",
-          "src": "761:29:75"
+          "src": "761:29:104"
         },
         {
           "contract": "DistributionToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\DistributionToken.sol",
+          "path": "contracts/modules/token/DistributionToken.sol",
           "label": "distributions",
-          "astId": 9774,
+          "astId": 14714,
           "type": "t_array:dyn<t_struct<DistributionToken.Distribution>>",
-          "src": "903:35:50"
+          "src": "903:35:80"
         },
         {
           "contract": "DistributionToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\DistributionToken.sol",
+          "path": "contracts/modules/token/DistributionToken.sol",
           "label": "nextDistributions",
-          "astId": 9778,
+          "astId": 14718,
           "type": "t_mapping<t_uint256>",
-          "src": "992:52:50"
+          "src": "992:52:80"
         },
         {
           "contract": "DistributionToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\DistributionToken.sol",
+          "path": "contracts/modules/token/DistributionToken.sol",
           "label": "nextDistributionTimestamp",
-          "astId": 9780,
+          "astId": 14720,
           "type": "t_uint256",
-          "src": "1107:40:50"
+          "src": "1107:40:80"
         },
         {
           "contract": "DistributionToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\DistributionToken.sol",
+          "path": "contracts/modules/token/DistributionToken.sol",
           "label": "distributionAccumulator",
-          "astId": 9782,
+          "astId": 14722,
           "type": "t_uint256",
-          "src": "1242:38:50"
+          "src": "1242:38:80"
         },
         {
           "contract": "PoolToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\PoolToken.sol",
+          "path": "contracts/modules/token/PoolToken.sol",
           "label": "allowTransfers",
-          "astId": 10474,
+          "astId": 15414,
           "type": "t_bool",
-          "src": "628:19:51"
+          "src": "628:19:81"
         }
       ],
       "warnings": {
@@ -1782,7 +1782,26 @@
         "hasSelfDestruct": false,
         "hasDelegateCall": false,
         "hasInitialValuesInDeclarations": false,
-        "uninitializedBaseContracts": []
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [
+          {
+            "contract": "MinterRole",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/roles/MinterRole.sol",
+            "label": "_minters",
+            "astId": 20941,
+            "type": "t_struct<Roles.Role>",
+            "src": "327:27:96"
+          },
+          {
+            "contract": "DistributionToken",
+            "path": "contracts/modules/token/DistributionToken.sol",
+            "label": "distributions",
+            "astId": 14714,
+            "type": "t_array:dyn<t_struct<DistributionToken.Distribution>>",
+            "src": "903:35:80"
+          }
+        ],
+        "storageDiff": []
       }
     },
     "CompoundProtocol_USDC": {
@@ -1971,11 +1990,11 @@
       }
     },
     "PoolToken_Compound_USDC": {
-      "address": "0xC75E0768F5A3ef08b641607b570646640866d276",
-      "constructorCode": "608060405261336c806100136000396000f3fe",
-      "bodyBytecodeHash": "9e25aa94c60b7cfffdf8195d286a7515185db25c79a3a27c30547851d961c47e",
-      "localBytecodeHash": "c9e593c73f6fc47416dd2efe0fdc2e18c1083cc685ac996219963a6c100b98f7",
-      "deployedBytecodeHash": "c9e593c73f6fc47416dd2efe0fdc2e18c1083cc685ac996219963a6c100b98f7",
+      "address": "0xFeDfc3a6a79324aE9c2D40095FD2D9f803ba5fF4",
+      "constructorCode": "60806040526133b6806100136000396000f3fe",
+      "bodyBytecodeHash": "965e10efbd836df6d91c69a5f479232f7f5f8e4a4f0175416f27a45ee2d46ab1",
+      "localBytecodeHash": "f36a5e87ac069a942819efa709da14c56d07825776380e9ae171d74850681bf7",
+      "deployedBytecodeHash": "f36a5e87ac069a942819efa709da14c56d07825776380e9ae171d74850681bf7",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -2022,9 +2041,9 @@
           "members": [
             {
               "label": "bearer",
-              "astId": 16249,
+              "astId": 20721,
               "type": "t_mapping<t_bool>",
-              "src": "150:32:65"
+              "src": "150:32:94"
             }
           ]
         },
@@ -2041,15 +2060,15 @@
           "members": [
             {
               "label": "amount",
-              "astId": 9768,
+              "astId": 14708,
               "type": "t_uint256",
-              "src": "745:14:50"
+              "src": "745:14:80"
             },
             {
               "label": "totalSupply",
-              "astId": 9770,
+              "astId": 14710,
               "type": "t_uint256",
-              "src": "832:19:50"
+              "src": "832:19:80"
             }
           ]
         },
@@ -2064,47 +2083,47 @@
       "storage": [
         {
           "contract": "Initializable",
-          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
           "label": "initialized",
-          "astId": 18319,
+          "astId": 22791,
           "type": "t_bool",
-          "src": "757:24:82"
+          "src": "757:24:111"
         },
         {
           "contract": "Initializable",
-          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
           "label": "initializing",
-          "astId": 18321,
+          "astId": 22793,
           "type": "t_bool",
-          "src": "876:25:82"
+          "src": "876:25:111"
         },
         {
           "contract": "Initializable",
-          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
           "label": "______gap",
-          "astId": 18383,
+          "astId": 22855,
           "type": "t_array:50<t_uint256>",
-          "src": "1982:29:82"
+          "src": "1982:29:111"
         },
         {
           "contract": "Ownable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/ownership/Ownable.sol",
           "label": "_owner",
-          "astId": 17252,
+          "astId": 21724,
           "type": "t_address",
-          "src": "526:22:73"
+          "src": "526:22:102"
         },
         {
           "contract": "Ownable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/ownership/Ownable.sol",
           "label": "______gap",
-          "astId": 17365,
+          "astId": 21837,
           "type": "t_array:50<t_uint256>",
-          "src": "2471:29:73"
+          "src": "2471:29:102"
         },
         {
           "contract": "Module",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\common\\Module.sol",
+          "path": "contracts/common/Module.sol",
           "label": "pool",
           "astId": 43,
           "type": "t_address",
@@ -2112,139 +2131,139 @@
         },
         {
           "contract": "ERC20",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol",
           "label": "_balances",
-          "astId": 17385,
+          "astId": 21857,
           "type": "t_mapping<t_uint256>",
-          "src": "1418:46:74"
+          "src": "1418:46:103"
         },
         {
           "contract": "ERC20",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol",
           "label": "_allowances",
-          "astId": 17391,
+          "astId": 21863,
           "type": "t_mapping<t_uint256>",
-          "src": "1471:69:74"
+          "src": "1471:69:103"
         },
         {
           "contract": "ERC20",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol",
           "label": "_totalSupply",
-          "astId": 17393,
+          "astId": 21865,
           "type": "t_uint256",
-          "src": "1547:28:74"
+          "src": "1547:28:103"
         },
         {
           "contract": "ERC20",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol",
           "label": "______gap",
-          "astId": 17777,
+          "astId": 22249,
           "type": "t_array:50<t_uint256>",
-          "src": "8172:29:74"
+          "src": "8172:29:103"
         },
         {
           "contract": "ERC20Detailed",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Detailed.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol",
           "label": "_name",
-          "astId": 17829,
+          "astId": 22301,
           "type": "t_string",
-          "src": "224:20:76"
+          "src": "224:20:105"
         },
         {
           "contract": "ERC20Detailed",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Detailed.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol",
           "label": "_symbol",
-          "astId": 17831,
+          "astId": 22303,
           "type": "t_string",
-          "src": "250:22:76"
+          "src": "250:22:105"
         },
         {
           "contract": "ERC20Detailed",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Detailed.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol",
           "label": "_decimals",
-          "astId": 17833,
+          "astId": 22305,
           "type": "t_uint8",
-          "src": "278:23:76"
+          "src": "278:23:105"
         },
         {
           "contract": "ERC20Detailed",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Detailed.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol",
           "label": "______gap",
-          "astId": 17885,
+          "astId": 22357,
           "type": "t_array:50<t_uint256>",
-          "src": "1654:29:76"
+          "src": "1654:29:105"
         },
         {
           "contract": "MinterRole",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\roles\\MinterRole.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/access/roles/MinterRole.sol",
           "label": "_minters",
-          "astId": 16469,
+          "astId": 20941,
           "type": "t_struct<Roles.Role>",
-          "src": "327:27:67"
+          "src": "327:27:96"
         },
         {
           "contract": "MinterRole",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\roles\\MinterRole.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/access/roles/MinterRole.sol",
           "label": "______gap",
-          "astId": 16569,
+          "astId": 21041,
           "type": "t_array:50<t_uint256>",
-          "src": "1193:29:67"
+          "src": "1193:29:96"
         },
         {
           "contract": "ERC20Mintable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Mintable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Mintable.sol",
           "label": "______gap",
-          "astId": 17934,
+          "astId": 22406,
           "type": "t_array:50<t_uint256>",
-          "src": "831:29:77"
+          "src": "831:29:106"
         },
         {
           "contract": "ERC20Burnable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\token\\ERC20\\ERC20Burnable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Burnable.sol",
           "label": "______gap",
-          "astId": 17818,
+          "astId": 22290,
           "type": "t_array:50<t_uint256>",
-          "src": "761:29:75"
+          "src": "761:29:104"
         },
         {
           "contract": "DistributionToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\DistributionToken.sol",
+          "path": "contracts/modules/token/DistributionToken.sol",
           "label": "distributions",
-          "astId": 9774,
+          "astId": 14714,
           "type": "t_array:dyn<t_struct<DistributionToken.Distribution>>",
-          "src": "903:35:50"
+          "src": "903:35:80"
         },
         {
           "contract": "DistributionToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\DistributionToken.sol",
+          "path": "contracts/modules/token/DistributionToken.sol",
           "label": "nextDistributions",
-          "astId": 9778,
+          "astId": 14718,
           "type": "t_mapping<t_uint256>",
-          "src": "992:52:50"
+          "src": "992:52:80"
         },
         {
           "contract": "DistributionToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\DistributionToken.sol",
+          "path": "contracts/modules/token/DistributionToken.sol",
           "label": "nextDistributionTimestamp",
-          "astId": 9780,
+          "astId": 14720,
           "type": "t_uint256",
-          "src": "1107:40:50"
+          "src": "1107:40:80"
         },
         {
           "contract": "DistributionToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\DistributionToken.sol",
+          "path": "contracts/modules/token/DistributionToken.sol",
           "label": "distributionAccumulator",
-          "astId": 9782,
+          "astId": 14722,
           "type": "t_uint256",
-          "src": "1242:38:50"
+          "src": "1242:38:80"
         },
         {
           "contract": "PoolToken",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\token\\PoolToken.sol",
+          "path": "contracts/modules/token/PoolToken.sol",
           "label": "allowTransfers",
-          "astId": 10474,
+          "astId": 15414,
           "type": "t_bool",
-          "src": "628:19:51"
+          "src": "628:19:81"
         }
       ],
       "warnings": {
@@ -2252,7 +2271,26 @@
         "hasSelfDestruct": false,
         "hasDelegateCall": false,
         "hasInitialValuesInDeclarations": false,
-        "uninitializedBaseContracts": []
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [
+          {
+            "contract": "MinterRole",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/roles/MinterRole.sol",
+            "label": "_minters",
+            "astId": 20941,
+            "type": "t_struct<Roles.Role>",
+            "src": "327:27:96"
+          },
+          {
+            "contract": "DistributionToken",
+            "path": "contracts/modules/token/DistributionToken.sol",
+            "label": "distributions",
+            "astId": 14714,
+            "type": "t_array:dyn<t_struct<DistributionToken.Distribution>>",
+            "src": "903:35:80"
+          }
+        ],
+        "storageDiff": []
       }
     },
     "CurveFiProtocol_SUSD": {
@@ -3910,11 +3948,11 @@
       }
     },
     "RewardVestingModule": {
-      "address": "0xe55C42bD01553994Fd7EF6a21e30BDc6B732528D",
-      "constructorCode": "6080604052612722806100136000396000f3fe",
-      "bodyBytecodeHash": "7270d497b26df64020b109e1b739664a54db1e9c52d833e407cda5a29039f6f3",
-      "localBytecodeHash": "2d007be8e46ee05cef21f5cdaf30048d1e5a2fe600c71c43ae39f53a5726d83f",
-      "deployedBytecodeHash": "2d007be8e46ee05cef21f5cdaf30048d1e5a2fe600c71c43ae39f53a5726d83f",
+      "address": "0x960F4cfECB7688dB5F0fBc73c11e84bB927cA4c7",
+      "constructorCode": "60806040526127aa806100136000396000f3fe",
+      "bodyBytecodeHash": "63bb759a0d61cd0dc434c8fb209aa1e95976fd75659f76466bbc1bf3613429eb",
+      "localBytecodeHash": "44bff908fd85efc3870c1e9cec5df9832707d03a8b573a29e74b2f269f0b95a2",
+      "deployedBytecodeHash": "44bff908fd85efc3870c1e9cec5df9832707d03a8b573a29e74b2f269f0b95a2",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -3945,7 +3983,7 @@
           "members": [
             {
               "label": "bearer",
-              "astId": 20670,
+              "astId": 20721,
               "type": "t_mapping<t_bool>",
               "src": "150:32:94"
             }
@@ -4044,47 +4082,47 @@
       "storage": [
         {
           "contract": "Initializable",
-          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
           "label": "initialized",
-          "astId": 22740,
+          "astId": 22791,
           "type": "t_bool",
           "src": "757:24:111"
         },
         {
           "contract": "Initializable",
-          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
           "label": "initializing",
-          "astId": 22742,
+          "astId": 22793,
           "type": "t_bool",
           "src": "876:25:111"
         },
         {
           "contract": "Initializable",
-          "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
           "label": "______gap",
-          "astId": 22804,
+          "astId": 22855,
           "type": "t_array:50<t_uint256>",
           "src": "1982:29:111"
         },
         {
           "contract": "Ownable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/ownership/Ownable.sol",
           "label": "_owner",
-          "astId": 21673,
+          "astId": 21724,
           "type": "t_address",
           "src": "526:22:102"
         },
         {
           "contract": "Ownable",
-          "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/ownership/Ownable.sol",
           "label": "______gap",
-          "astId": 21786,
+          "astId": 21837,
           "type": "t_array:50<t_uint256>",
           "src": "2471:29:102"
         },
         {
           "contract": "Module",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\common\\Module.sol",
+          "path": "contracts/common/Module.sol",
           "label": "pool",
           "astId": 43,
           "type": "t_address",
@@ -4092,7 +4130,7 @@
         },
         {
           "contract": "RewardManagerRole",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\reward\\RewardManagerRole.sol",
+          "path": "contracts/modules/reward/RewardManagerRole.sol",
           "label": "_managers",
           "astId": 8838,
           "type": "t_struct<Roles.Role>",
@@ -4100,7 +4138,7 @@
         },
         {
           "contract": "RewardVestingModule",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\reward\\RewardVestingModule.sol",
+          "path": "contracts/modules/reward/RewardVestingModule.sol",
           "label": "rewards",
           "astId": 9003,
           "type": "t_mapping<t_struct<RewardVestingModule.ProtocolRewards>>",
@@ -4108,7 +4146,7 @@
         },
         {
           "contract": "RewardVestingModule",
-          "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\reward\\RewardVestingModule.sol",
+          "path": "contracts/modules/reward/RewardVestingModule.sol",
           "label": "defaultEpochLength",
           "astId": 9005,
           "type": "t_uint256",
@@ -4124,7 +4162,7 @@
         "storageUncheckedVars": [
           {
             "contract": "RewardManagerRole",
-            "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\reward\\RewardManagerRole.sol",
+            "path": "contracts/modules/reward/RewardManagerRole.sol",
             "label": "_managers",
             "astId": 8838,
             "type": "t_struct<Roles.Role>",
@@ -4132,7 +4170,7 @@
           },
           {
             "contract": "RewardVestingModule",
-            "path": "..\\..\\..\\D\\projects\\akropolis\\savings-pool\\contracts\\modules\\reward\\RewardVestingModule.sol",
+            "path": "contracts/modules/reward/RewardVestingModule.sol",
             "label": "rewards",
             "astId": 9003,
             "type": "t_mapping<t_struct<RewardVestingModule.ProtocolRewards>>",
@@ -4573,6 +4611,27 @@
         "implementation": "0x1c9716531C8201f624CF693b69e5072a911b33a6",
         "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
         "kind": "Upgradeable"
+      },
+      {
+        "address": "0x5e79C497c2eb8F9A67f309756B47F2e03A00c7bD",
+        "version": "1.0.0",
+        "implementation": "0x1c9716531C8201f624CF693b69e5072a911b33a6",
+        "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xf53450781A2375FE218ED4dbC08E9cF8C8Bb0edb",
+        "version": "1.0.0",
+        "implementation": "0x1c9716531C8201f624CF693b69e5072a911b33a6",
+        "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xdFfd0E1337E970DAc1299120e317D252F538644F",
+        "version": "1.0.0",
+        "implementation": "0x1c9716531C8201f624CF693b69e5072a911b33a6",
+        "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
+        "kind": "Upgradeable"
       }
     ],
     "akropolis-savings-pool/AccessModule": [
@@ -4582,11 +4641,25 @@
         "implementation": "0x4310113e7BDcaA773a7aF690913B5a47434E30D3",
         "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
         "kind": "Upgradeable"
+      },
+      {
+        "address": "0x9D37f9b5A0C11EbC72b27C618958ebd941B04B26",
+        "version": "1.0.0",
+        "implementation": "0x4310113e7BDcaA773a7aF690913B5a47434E30D3",
+        "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
+        "kind": "Upgradeable"
       }
     ],
     "akropolis-savings-pool/SavingsModule": [
       {
         "address": "0xb733994019A4F55CAa3f130400B7978Cc6624c39",
+        "version": "1.0.0",
+        "implementation": "0x1621f406edCC4b40b96dAB3C1e7032779e36D632",
+        "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x1508CD8bCBbCC278b346378743De65091AFb94f3",
         "version": "1.0.0",
         "implementation": "0x1621f406edCC4b40b96dAB3C1e7032779e36D632",
         "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
@@ -4618,6 +4691,13 @@
         "implementation": "0x679edc6daD17e55a18BBF15ae571f02428a0628f",
         "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
         "kind": "Upgradeable"
+      },
+      {
+        "address": "0x4256479036b4448D26b9Ac39085c49fdD4268539",
+        "version": "1.0.0",
+        "implementation": "0x7dCbC1Df877bF6085600F4bA99382dE3e79346A1",
+        "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
+        "kind": "Upgradeable"
       }
     ],
     "akropolis-savings-pool/CompoundProtocol_USDC": [
@@ -4634,6 +4714,13 @@
         "address": "0x551AaBC00A7d02b51A81138fb8fA455786720793",
         "version": "1.0.0",
         "implementation": "0xC75E0768F5A3ef08b641607b570646640866d276",
+        "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x909b382612dD0FA063b1429ba409321eeefBBb83",
+        "version": "1.0.0",
+        "implementation": "0xFeDfc3a6a79324aE9c2D40095FD2D9f803ba5fF4",
         "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
         "kind": "Upgradeable"
       }
@@ -4697,6 +4784,13 @@
         "address": "0x214eAB7667848ec753A50Bf98416a8E12D3516f2",
         "version": "1.0.0",
         "implementation": "0xe55C42bD01553994Fd7EF6a21e30BDc6B732528D",
+        "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x8241DF2F5905Da0463Aba58f8dD24f1Af1A7082C",
+        "version": "1.0.0",
+        "implementation": "0x960F4cfECB7688dB5F0fBc73c11e84bB927cA4c7",
         "admin": "0x7B27e0dAED14F0DFA17aa8a23f39c5dbF6FaAF12",
         "kind": "Upgradeable"
       }
